@@ -1,0 +1,152 @@
+*{
+    font-family: "Poppins", sans-serif;
+    padding: 0%;
+    margin:0%;
+  }
+header{
+    text-align: center;  
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgb(210, 178, 240);
+    align-items: center; 
+}
+
+.navbar-nav{
+    text-align: right;
+}
+
+.navbar .navbar-nav .nav_list{
+    padding-right: 1em;
+}
+
+.nav_list{
+    display:flex;
+}
+
+.nav_list li{
+    list-style: none;
+    margin-left: 18px;
+}
+
+.nav_list{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+.hero_page{
+    height: 400px;
+    /* background: rgba(203, 108, 203, 0.105); */
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+
+.left{
+    height: 300px;
+    width: 40%;
+    /* background-color: blanchedalmond; */
+}
+
+.right{
+    height:300px;
+    width: 40%;
+    /* background-color: azure; */
+}
+
+img{
+    margin-top:8px;
+}
+.left h1{
+    font-size: 40px;
+}
+
+.heropage2{
+    /* background-color: aqua; */
+    font-size:20px;
+    text-align: center;
+}
+
+sec1{
+    font-size: 30px;
+}
+.heropage2 img{
+    height: 300px;
+    width: 30%;
+}
+
+h4{
+    font-size: 30px;
+    text-align: center;
+}
+
+a img{
+    height: 220px;
+    justify-content: center;
+    padding-right: 70px;
+    width: 250px;
+}
+h5{
+    font-size: 30px;
+    text-align: center;
+}
+
+.chat_icon span{
+    font-size: 30px;
+    color: green;
+}
+
+.chat_icon{
+    text-align: center;
+    position: absolute;
+    color: green;
+    right: 20px;
+    top: 80vh;
+    font-weight: 700;
+    z-index: 10px;
+    position: fixed;
+}
+    
+.chat_icon img{
+    height: 100px;
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content:space-between;
+    padding: 100px 50px 50px 100px
+}
+
+ul li{
+    list-style: none;
+}
+/* responsiveness */
+@media (max-width: 768px){
+    .hero_page{
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        margin-bottom: 100px;
+    }
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    footer{
+    flex-direction: column;
+    align-items: center;
+
+    }
+
+}
